@@ -14,8 +14,10 @@
   },
   {
     "title": "3D Printing",
+    "date": "2019",
     "hero": "3dprint.jpeg",
-    "prominent": true
+    "prominent": true,
+    "category": "Technology"
   },
   {
     "title": "The State of Crafstmanship in 2019",

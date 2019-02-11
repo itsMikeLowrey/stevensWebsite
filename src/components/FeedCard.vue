@@ -7,15 +7,16 @@
       :height="value.prominent ? 450 : 350"
       color="grey lighten-1"
       dark
-
+      @click.native="doSomething()"
     >
+    <a :href=value.link>
       <v-img
         :src="require(`@/assets/articles/${value.hero}`)"
         height="100%"
         gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
       >
         <v-layout
-          v-if="!value.prominent"
+          
           fill-height
           wrap
           text-xs-right
@@ -40,19 +41,9 @@
               {{ value.date }}
             </div>
           </v-flex>
-          <v-flex align-self-end>
-            <v-chip
-              class="text-uppercase ma-0"
-              color="primary"
-              label
-              small
-              @click.stop=""
-            >
-              Read More
-            </v-chip>
-          </v-flex>
         </v-layout>
       </v-img>
+    </a>
     </base-card>
   </v-flex>
 </template>
@@ -84,5 +75,9 @@
 <style>
 .v-image__image {
   transition: .3s linear;
+}
+a {
+  color: white;
+  text-decoration: none; /* no underline */
 }
 </style>
