@@ -2,15 +2,31 @@
   <v-container pa-0>
     <base-subheading>Tags</base-subheading>
     <v-chip
-      v-for="(category, i) in categories"
-      :key="i"
       tag
       label
       small
       color="secondary"
       text-color="white"
     >
-      {{ category.text }}
+      Art
+    </v-chip>
+    <v-chip
+      tag
+      label
+      small
+      color="secondary"
+      text-color="white"
+    >
+      Family
+    </v-chip>
+    <v-chip
+      tag
+      label
+      small
+      color="secondary"
+      text-color="white"
+    >
+      Philosophy
     </v-chip>
   </v-container>
 </template>

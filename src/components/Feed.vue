@@ -15,7 +15,7 @@
       />
     </v-layout>
 
-    <v-layout align-center>
+    <!-- <v-layout align-center>
       <v-flex xs3>
         <base-btn
           v-if="page !== 1"
@@ -50,7 +50,7 @@
           <v-icon>mdi-chevron-right</v-icon>
         </base-btn>
       </v-flex>
-    </v-layout>
+    </v-layout> -->
   </v-container>
 </template>
 
