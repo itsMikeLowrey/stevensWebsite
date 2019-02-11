@@ -14,6 +14,7 @@
         <v-flex
           xs5
           md5
+          offset-xs6
           offset-md6
           style="background-color:rgba(67, 171, 245, 0.5)"
         >
