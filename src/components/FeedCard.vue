@@ -7,7 +7,7 @@
       :height="value.prominent ? 450 : 350"
       color="grey lighten-1"
       dark
-      href="#!"
+
     >
       <v-img
         :src="require(`@/assets/articles/${value.hero}`)"
@@ -31,12 +31,13 @@
               @click.stop=""
             >
               {{ value.category }}
+              {{ value.link }}
             </v-chip>
             <h3 class="title font-weight-bold mb-2">
               {{ value.title }}
             </h3>
             <div class="caption">
-              {{ value.author }}<br>Date
+              {{ value.date }}
             </div>
           </v-flex>
           <v-flex align-self-end>
