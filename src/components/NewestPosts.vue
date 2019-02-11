@@ -1,6 +1,6 @@
 <template>
   <v-container pa-0>
-    <base-subheading>Newest Blog Posts</base-subheading>
+    <!-- <base-subheading>Newest Blog Posts</base-subheading>
     <v-layout
       v-for="(article, i) in articles.slice(11, 14)"
       :key="i"
@@ -26,7 +26,7 @@
           </div>
         </div>
       </v-flex>
-    </v-layout>
+    </v-layout> -->
   </v-container>
 </template>
 
