@@ -12,7 +12,7 @@
         pa-3
       >
         <v-flex
-          xs5
+          xs7
           md5
           offset-xs6
           offset-md6
