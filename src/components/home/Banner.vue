@@ -18,7 +18,7 @@
           offset-md6
           style="background-color:rgba(67, 171, 245, 0.5)"
         >
-          <h1 class="display-3 font-weight-light">
+          <h1 class="display-3 font-weight-light pa-1">
             Raising The Barr
           </h1>
           <div class="subheading text-uppercase pl-2 mb-4">
